@@ -1,0 +1,23 @@
+/* Globales */
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+.img__profile {
+    width: 20rem;
+    height: auto;
+    border-radius: 100%;
+    border: 0.1rem solid black;
+}

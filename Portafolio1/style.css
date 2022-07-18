@@ -1,0 +1,134 @@
+:root {
+    /*Custom properties*/
+    --fondo-: #D9E3EF;
+    --fondo-nav: #71767D;
+    --clr-text-black: #000000;
+}
+
+/*estalizado*/
+html {
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+
+@media(min-width:1270px) {
+
+    /*Cuerpo pagina con la informacion*/
+    .body__principal {
+        margin: 5rem 20rem 0 20rem;
+    }
+}
+
+body {
+    background-color: var(--fondo-);
+    /*las siguiente lineas de code hace que todo lo que se muestra sea "escalabe" de pixel a rem. Esto funcion por la etiqueta '*' y 'html' que luego es estelizado */
+    font-family: 'kanit';
+    font-size: 16px;
+    /* 1rem = 10px */
+}
+
+/*Nav*/
+.nav__contenedor {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.nav__navegador {
+    margin: 0 10rem 0 10rem;
+}
+
+.nav__item2 {
+    align-self: flex-start;
+}
+
+/*Inicio de portada*/
+header h1 {
+    text-align: center;
+
+}
+
+.img__profile {
+    text-align: center;
+}
+
+.img__profile img {
+    border-radius: 50%;
+    height: auto;
+    width: 20rem;
+}
+
+.p__intro {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nv-bg {
+    background-color: var(--fondo-nav);
+}
+
+.nv-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 768px) {
+
+    .nv-item {
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.nv-item a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nv-item a:hover {
+    background: #AEB6BF;
+    color: black;
+}
+
+.titulo {
+    color: var(--clr-text);
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 2.1rem;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    bottom: 0;
+}
