@@ -7,49 +7,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 
 <body>
     <main class="contenedor">
-        <div>
-            <img class="img__profile" src="img/fotoPerfil.PNG" alt="">
-            <p>Pedro Benites</p>
-            <p>Desarrollador front-end</p>
-            <p>Soy un aficionado en el mundo de la programacion con ganas de poder aprender muchisimas cosas dentro del
-                desarrollo front-end.
-            </p>
+        <div class="main__presentacion">
+
+
+            <h3 class="h3__titulo"> <img class="img__profile" src="img/fotoPerfil.PNG" alt=""> Pedro Benites <p>
+                    Desarrollador front-end</p>
+            </h3>
+            <p class="p__presentacion">Soy un aficionado en el mundo al programación con ganas de poder aprender
+                muchísimas cosas dentro del
+                desarrollo front-end. Empecé con la computación desde niño, especificamente con los juegos. A pasar
+                el tiempo,
+                sentía que mi vocación iba por la rama de las computadoras. Ya en la secundaria sabia cuál iba a hacer
+                mi
+                objetivo principal, ser un desarrollador de páginas web. En la actualidad quiero saber más acerca de las
+                computadoras, y es por eso, que estoy iniciando la carrera de Ciencias de la Computación en la UBA.
         </div>
-        <section>
-            <h2>Cursos</h2>
-            <div class="section__cursos">
-                <ol>
-                    <li>React</li>
-                    <li>Front-end</li>
-                    <li>FullStack</li>
-                </ol>
+        <section class="section_Main">
+            <div class="section__Course espaciado">
+                <h2>Cursos</h2>
+                <div class="section__Margin-content">
+                    <p>2017</p>
+                    <div class="section__Course section__cursos-espaciado ">
+                        <ol>
+                            <li class="li__senialador">
+                                <p>Aprende Programando - (nivel 2) curso basico de JavaScript</p>
+                            </li>
+                            <li class="li__senialador">
+                                <p>Empleos del futuro - Fundamentos básicos del desarrollo de IA's por
+                                    Andres Hohendahl</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <p>2022</p>
+                    <div class="section__Course  section__cursos-espaciado">
+                        <ol>
+                            <li class="li__senialador ">
+                                <p>Udemy - React</p>
+                            </li>
+                            <li class="li__senialador">
+                                <p>Udemy - Front-end</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
             </div>
-            <h2>Educacion</h2>
-            <div class="section__Edu">
-                <ol>
-                    <li>Secundaria</li>
-                    <li>Universidad</li>
-                </ol>
+
+            <div class="section__Education espaciado">
+                <h2>Educacion</h2>
+                <div class="section__Edu section__Margin-content">
+                    <div class="section__Edu-content">
+                        <h3>Secundaria:</h3>
+                        <p class="section__Edu-p">
+                            Escuela tecnica N32 DE 14 jose de san martin -
+                            Tecnico en
+                            computacion y personal de
+                            programacion
+                        </p>
+                    </div>
+                    <div class="section__Edu-content">
+                        <h3>Universidad:</h3>
+                        <p class="section__Edu-p">
+                            Universidad de Buenos Aires - Ciencias de la computacion (en curso)
+                        </p>
+                    </div>
+
+                </div>
             </div>
-            <h2>Links</h2>
-            <div class="section__links">
-                <ol>
-                    <li>
+
+            <div class="section__ExpLab espaciado">
+
+                <h2>Experiencia laboral</h2>
+                <div class="section__Margin-content">
+                    <div class="section__Job espaciado ">
+                        <span class="span__anio">2018 - 2018</span>
+                        Pasantias en el ministerio de espacios publicos y ambiente.
+                    </div>
+                    <div class="section__Job">
+                        <span class="span__anio">2022 - actualidad</span>
+                        Anfitrion y operador en Estacion Oceanica.
+                    </div>
+                </div>
+
+            </div>
+            <div class="section__Links espaciado">
+                <h2>Links</h2>
+                <div class="section__Links-content section__Margin-content">
+                    <div class="section__Links-gh section__Links-items">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github"
+                            width="30" height="auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                        </svg>
                         <a href="">Github</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="section__Links-ld section__Links-items">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin"
+                            width="30" height="auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="4" y="4" width="16" height="16" rx="3" />
+                            <line x1="8" y1="11" x2="8" y2="16" />
+                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                            <line x1="12" y1="16" x2="12" y2="11" />
+                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
                         <a href="">Linkedin</a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="section__Links-fb section__Links-items">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                            width="30" height="auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
                         <a href="">Facebook</a>
-                    </li>
-                </ol>
+                    </div>
+
+                </div>
             </div>
+
+            <section class="section__galeria">
+                <h2>Galeria</h2>
+                <div class="galeria__fotos">
+                    <img src="" alt="foto1">
+                    <img src="" alt="fotos2">
+                    <img src="" alt="fotos3">
+                    <img src="" alt="fotos4">
+                </div>
+            </section>
+            <section class="section__aboutMe">
+                <h2>Sobre mi</h2>
+                <p> Aqui sabras un poco mas de mi, como soy en la vida cotidiana.</p>
+            </section>
         </section>
+        <footer>Pagina hecho por Pedro Benites.</footer>
     </main>
 </body>
 

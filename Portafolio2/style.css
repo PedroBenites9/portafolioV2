@@ -1,4 +1,8 @@
 /* Globales */
+:root {
+    --fuentePrincipal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -12,12 +16,119 @@ html {
 }
 
 body {
+    font-family: var(--fuentePrincipal);
     font-size: 16px;
+    background-color: #313131;
+    color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+li>p {
+    margin: 1rem 0 1rem 0;
+}
+
+h3>p {
+    font-size: 1.5rem;
+}
+
+ol>li {
+    list-style-type: none;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.li__senialador::marker {
+    content: '👉​';
+}
+
+.espaciado {
+    margin: 0 0 2rem 0;
+}
+
+/* Clases */
 .img__profile {
-    width: 20rem;
-    height: auto;
+    width: auto;
+    height: 21rem;
     border-radius: 100%;
-    border: 0.1rem solid black;
+    border: .2rem solid black;
+    box-shadow: -.2rem .1rem 2rem black;
+}
+
+.main__presentacion {
+
+    display: flex;
+    margin: 0;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor {
+    margin: 0 60rem;
+    padding: 4rem;
+    background-color: #272525;
+    box-shadow: -.3rem 1rem 3rem rgb(15, 15, 15);
+}
+
+.p__presentacion {
+    width: 40rem;
+    text-align: center;
+    border: 0.5rem outset #000;
+}
+
+.h3__titulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.h3__titulo>img {
+    margin: 1.5rem;
+}
+
+.section_Main {
+    display: flex;
+    flex-flow: column wrap;
+    gap: .6rem;
+    margin: 3rem 6rem;
+}
+
+.section__cursos-espaciado>ol>li {
+    margin: 0 0 0 4rem;
+}
+
+.section__Margin-content {
+    margin: 1.5rem 0 0 0;
+}
+
+.section__Edu-content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.section__Edu-p {
+    width: 30rem;
+    height: auto;
+    text-align: justify;
+    margin: .5rem;
+}
+
+.section__Links-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section__Links-items {
+    display: flex;
+    align-items: center;
 }
